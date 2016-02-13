@@ -1,20 +1,20 @@
 package example.spm.com;
 
-public class SimpleCalculator implements Calculator{
+public class SimpleFloatCalculator implements Calculator{
 	
-	public static int add(int a, int b){
+	public static float add(float a, float b){
 		return a+b;
 	}
 	
-	public static int sub(int a, int b){
+	public static float sub(float a, float b){
 		return a-b;
 	}
 	
-	public static int mult(int a, int b){
+	public static float mult(float a, float b){
 		return a*b;
 	}
 	
-	public static int div(int a, int b){
+	public static float div(float a, float b){
 		return a/b;
 	}
 
