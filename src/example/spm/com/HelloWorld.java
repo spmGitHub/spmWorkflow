@@ -22,6 +22,7 @@ public class HelloWorld {
 		int d = 2;
 		
 		System.out.println("Hallo!");
+		System.out.println("Salut!");
 		System.out.println(SimpleCalculator.add(c, d));
 		System.out.println(SimpleCalculator.sub(c, d));
 	}
