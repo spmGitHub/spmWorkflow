@@ -21,5 +21,10 @@ public class HelloWorld {
 		System.out.println(SimpleCalculator.sub(a,b));
 		System.out.println(SimpleCalculator.mult(a,b));
 		System.out.println(SimpleCalculator.div(a,b));
+		
+		int c = 110;
+		int d = 2;
+		
+		System.out.println(SimpleCalculator.add(c, d));
 	}
 }
