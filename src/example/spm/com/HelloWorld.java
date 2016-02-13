@@ -1,10 +1,6 @@
 package example.spm.com;
 
 public class HelloWorld {
-	
-	public static String getName(){
-		return "Joana";
-	}
 
 	public static String message(){
 		return "Welcome to my project!";
@@ -12,7 +8,7 @@ public class HelloWorld {
 	
 	
 	public static void main(String[] args){
-		String name = getName();
+		String name = Name.getName();
 		System.out.println("Hello World, "+ name);
 		System.out.println(message());
 		int a=4;
