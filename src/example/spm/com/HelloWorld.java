@@ -18,10 +18,10 @@ public class HelloWorld {
 		System.out.println(SimpleCalculator.mult(a,b));
 		System.out.println(SimpleCalculator.div(a,b));
 		
-		int c = 110;
-		int d = 2;
+		float c = 110;
+		float d = 2;
 		
-		System.out.println(SimpleCalculator.add(c, d));
-		System.out.println(SimpleCalculator.sub(c, d));
+		System.out.println(SimpleFloatCalculator.add(c, d));
+		System.out.println(SimpleFloatCalculator.sub(c, d));
 	}
 }
