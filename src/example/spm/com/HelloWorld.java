@@ -15,9 +15,11 @@ public class HelloWorld {
 		String name = getName();
 		System.out.println("Hello World, "+ name);
 		System.out.println(message());
-		int a=2;
-		int b=4;
+		int a=4;
+		int b=2;
 		System.out.println(SimpleCalculator.add(a,b));
 		System.out.println(SimpleCalculator.sub(a,b));
+		System.out.println(SimpleCalculator.mult(a,b));
+		System.out.println(SimpleCalculator.div(a,b));
 	}
 }
